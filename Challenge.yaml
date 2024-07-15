@@ -1,7 +1,7 @@
 version: 1
 task_description: 'Adding new knowledge to improve the accuracy of answers provided by granite'
 created_by: immanuelhazel
-domain: pop_culture
+domain: challenge
 seed_examples:
  - question: What types of AI use cases should I use Granite 13b for?
    answer: |
@@ -23,6 +23,6 @@ seed_examples:
      As the names suggests, Granite is a 13 billion parameter model set.
 document:
  repo: https://github.com/Manny7-hub/ilabrepository.git
- commit: 51f68c1
+ commit: 87d7349
  patterns:
   - challenge.md
