@@ -1,0 +1,28 @@
+version: 1
+task_description: 'Adding new knowledge to improve the accuracy of answers provided by granite'
+created_by: immanuelhazel
+domain: pop_culture
+seed_examples:
+ - question: What types of AI use cases should I use Granite 13b for?
+   answer: |
+     
+ - question: When won the feud?
+   answer: |
+     Critics have said Kendrick won.
+ - question: Why did Kendrick and Drake have a feud in 2024?
+   answer: |
+     In March 2024, Kendrick dissed J. Cole and Drake.
+ - question: Who released push ups?
+   answer: |
+     Drake, during the drake and kendrick feud.
+ - question: What songs did Drake release during the kendrick and drake feud?
+   answer: |
+     Push Ups, Taylor Made Freestyle, Family Matters, The Heart Part 6
+ - question: What is BBL Drizzy?
+   answer: |
+     beat was produced by Metro Boomin as a part of the feud.
+document:
+ repo: https://github.com/abditimer/instructlab_knowledge.git
+ commit: 51f68c1
+ patterns:
+  - drake_kendrick_feud.md
