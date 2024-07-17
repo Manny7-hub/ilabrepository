@@ -1,5 +1,5 @@
 version: 1
-task_description: 'Adding new knowledge to improve the accuracy of answers provided by granite'
+task_description: 'Adding new knowledge to improve the accuracy of answers pertaining to IBM's Granite 13b Model'
 created_by: immanuelhazel
 domain: challenge
 seed_examples:
